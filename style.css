@@ -1,0 +1,50 @@
+.pic1{
+    height: 155px;
+    width: 235px;
+    border-radius: 15px;
+}
+
+.pic2{
+    height: 159px;
+    width: 238px;
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(241, 129, 223);
+   
+}
+
+.letter{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 40px;
+    
+    
+}
+
+.letter_head{
+    position: absolute;
+
+}
+.letter_Body{
+
+    position: absolute;
+}
+
+.letter:hover .letter_head{
+    z-index: 1;
+    box-shadow: 5px 5px 10px wheat ;
+    top: 30px;
+
+}
+
+
+h1{
+    text-align: center;
+    color: red;
+    
+}
